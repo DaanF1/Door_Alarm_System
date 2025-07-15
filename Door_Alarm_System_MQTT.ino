@@ -207,7 +207,7 @@ void callback(char* topic, byte* payload, unsigned int length) {
 
   if (String(topic) == doorTopic) {
     if (message == "0") { // 0 indicates door closed
-      Serial.println("Door opened!");
+      Serial.println("Door closed!");
 
       alarmOn = false;
       String alarmMsg = String(alarmOn);
