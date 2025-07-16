@@ -18,12 +18,8 @@
     mqtt.eclipse.org
 */
 
-// Board manager URL's: https://dl.espressif.com/dl/package_esp32_index.json
-//                      https://arduino.esp8266.com/stable/package_esp8266com_index.json
-
 #include <WiFi.h>
 #include <PubSubClient.h>
-#include <Wire.h>
 
 const char* ssid = ""; // WiFi name
 const char* password = ""; // WiFi password
