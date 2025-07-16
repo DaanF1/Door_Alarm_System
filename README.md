@@ -4,7 +4,11 @@
 <!-- General Information -->
 <div align="center">
   <h1 align="center">Door Alarm System</h1>
+  <img width="600" src="https://github.com/DaanF1/Door_Alarm_System/blob/main/Images/Breadboard_Setup.jpeg"/>
 </div>
+
+<!-- Divider -->
+___
 
 <!-- Table Of Contents -->
 <details open>
@@ -12,8 +16,8 @@
   
 - [About This Repository](#about-this-repository)<br>
    - [Built With](#built-with)<br>
-   - [Details](#details)<br>
-      - [Wiring Diagram](#wiring-diagram)<br>
+   - [MQTT Protocol](#mqtt-protocol)<br>
+   - [Wiring Diagram](#wiring-diagram)<br>
 </details>
 
 <!-- Divider -->
@@ -28,12 +32,16 @@ This repository contains a basic door alarm system simulated on a breadboard usi
 This project was built using the [Arduino IDE](https://www.arduino.cc/en/software/), together with the [WiFi.h](https://github.com/arduino-libraries/WiFi/tree/master) and [PubSubClient.h](https://github.com/knolleary/pubsubclient) libraries.
 
 <!-- Details -->
-## Details
-TODO
-
-### Wiring Diagram
+## MQTT Protocol
+The project makes use of the MQTT (Message Queuing Telemetry Transport) protocol. The client subscribes to the broker, which acts like a middleman that transfers data to various topics. The client can control to which topics it subscribes. These topics can also send their data back to the client via the broker.
 <div align="center">
-    <img height="700" width="700" src="https://github.com/DaanF1/Door_Alarm_System/blob/main/Schematic_Door_Alarm_System.png"/>
+    <img width="700" src="https://github.com/DaanF1/Door_Alarm_System/blob/main/Images/MQTT_Architecture.png"/>
+</div>
+
+## Wiring Diagram
+The Wiring Diagram below shows the pin layout of the project, as well as the used components.
+<div align="center">
+    <img width="700" src="https://github.com/DaanF1/Door_Alarm_System/blob/main/Images/Schematic_Door_Alarm_System.png"/>
 </div>
 
 <!-- Back To Top -->
