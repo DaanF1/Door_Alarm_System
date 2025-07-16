@@ -17,8 +17,8 @@ ___
 - [About This Repository](#about-this-repository)<br>
    - [Built With](#built-with)<br>
    - [MQTT Protocol](#mqtt-protocol)<br>
-      - [Viewing The Protocol](#viewing-the-protocol)<br>
       - [Topics](#topics)<br>
+      - [Viewing The Protocol](#viewing-the-protocol)<br>
    - [Wiring Diagram](#wiring-diagram)<br>
 </details>
 
