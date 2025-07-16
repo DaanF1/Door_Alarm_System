@@ -36,7 +36,12 @@ This project was built using the [Arduino IDE](https://www.arduino.cc/en/softwar
 ## MQTT Protocol
 The project makes use of the MQTT (Message Queuing Telemetry Transport) protocol. The client subscribes to the broker, which acts like a middleman that transfers data to various topics. The client can control to which topics it subscribes. These topics can also send their data back to the client via the broker.
 <div align="center">
-    <img width="700" src="https://github.com/DaanF1/Door_Alarm_System/blob/main/Images/MQTT_Architecture.png"/>
+  <img width="700" src="https://github.com/DaanF1/Door_Alarm_System/blob/main/Images/MQTT_Architecture.png"/>
+</div>
+It is possible to view the data being transfered in real-time. For this you could use a tool like [MQTT Explorer](https://mqtt-explorer.com/). Just make sure to connect to the same broker as the program, and add the topics (see below).
+<div align="center">
+  <img width="350" src=""/>
+  <img width="350" src=""/>
 </div>
 
 ## Topics
@@ -45,7 +50,7 @@ There are 2 topics for the project: doorOpened and alarm. Both of these topics c
 ## Wiring Diagram
 The Wiring Diagram below shows the pin layout of the project, as well as the used components.
 <div align="center">
-    <img width="700" src="https://github.com/DaanF1/Door_Alarm_System/blob/main/Images/Schematic_Door_Alarm_System.png"/>
+  <img width="700" src="https://github.com/DaanF1/Door_Alarm_System/blob/main/Images/Schematic_Door_Alarm_System.png"/>
 </div>
 
 <!-- Back To Top -->
