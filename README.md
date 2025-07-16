@@ -9,7 +9,6 @@
 
 <!-- Divider -->
 ___
-
 <!-- Table Of Contents -->
 <details open>
  <summary><strong>📚 Table of Contents</strong></summary>
@@ -23,11 +22,14 @@ ___
 
 <!-- Divider -->
 ___
+<!-- Badges -->
+[![GitHub Release](https://img.shields.io/github/v/release/DaanF1/Door_Alarm_System)](https://github.com/DaanF1/Door_Alarm_System/releases)
 
 <!-- About This Repository -->
 # About This Repository
 This repository contains a basic door alarm system simulated on a breadboard using an MQTT service.<br>
-This project was built using the [Arduino IDE](https://www.arduino.cc/en/software/), together with the [WiFi.h](https://github.com/arduino-libraries/WiFi/tree/master) and [PubSubClient.h](https://github.com/knolleary/pubsubclient) libraries.
+This project was built using the [Arduino IDE](https://www.arduino.cc/en/software/), together with the [WiFi.h](https://github.com/arduino-libraries/WiFi/tree/master) and [PubSubClient.h](https://github.com/knolleary/pubsubclient) libraries.<br>
+<br>
 
 <!-- Wiring Diagram -->
 ## Wiring Diagram
@@ -38,7 +40,6 @@ The Wiring Diagram below shows the pin layout of the project, as well as the use
 
 <!-- Divider -->
 ___
-
 <!-- MQTT Protocol -->
 # MQTT Protocol
 The project makes use of the MQTT (Message Queuing Telemetry Transport) protocol. The client subscribes to the broker, which acts like a middleman that transfers data to various topics. The client can control to which topics it subscribes. These topics can also send their data back to the client via the broker.
