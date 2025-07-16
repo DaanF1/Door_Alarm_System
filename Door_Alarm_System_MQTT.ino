@@ -51,7 +51,7 @@ bool prevStateButtonTwo = HIGH;
 
 bool yellowLedState = true; // States for switching LED on/off
 bool redLedState = true;  // States for switching LED on/off
-const int partSecondsBeforeAlarm = 100; // How many part seconds need to pass before the alarm goes off
+const int partSecondsBeforeAlarm = 100; // How many part seconds need to pass before the alarm goes off (100*0,1 = 10 seconds)
 int countedPartSeconds = 0; // A part second is 0,1 seconds
 
 void setup_wifi();
