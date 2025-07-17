@@ -21,8 +21,8 @@
 #include <WiFi.h>
 #include <PubSubClient.h>
 
-const char* ssid = ""; // WiFi name
-const char* password = ""; // WiFi password
+const char* ssid = ""; // WiFi name (Dont commit)
+const char* password = ""; // WiFi password (Dont commit)
 const char* mqtt_server = "broker.hivemq.com"; // Hosted broker service
 
 const char* baseTopic = "Door_Alarm_System";
