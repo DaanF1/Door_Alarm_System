@@ -23,7 +23,7 @@ ___
 <!-- Divider -->
 ___
 <!-- Badges -->
-[![GitHub Release](https://img.shields.io/github/v/release/DaanF1/Door_Alarm_System)](https://github.com/DaanF1/Door_Alarm_System/releases)
+[![GitHub Release](https://img.shields.io/github/v/release/DaanF1/Door_Alarm_System?style=for-the-badge&labelColor=%23000000)](https://github.com/DaanF1/Door_Alarm_System/releases)
 
 <!-- About This Repository -->
 # About This Repository
